@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+li {
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+  text-align: left;
+  border: solid 1px;
+  padding-left: 10px;
+  border-style: ridge;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+.disable-select {
+  user-select: none;
+  -webkit-touch-callout: none;
 }
